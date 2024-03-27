@@ -12,7 +12,7 @@ export default async function Home() {
         url: "https://uzmanpara.milliyet.com.tr/canli-borsa/bist-TUM-hisseleri",
         type: "etfs",
       }),
-      next: { revalidate: 60*5 },
+      next: { revalidate: 60 },
     });
     results = await data.json();
   } catch (error) {
