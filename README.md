@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/furkancanzirek/bist-etf-tracking">
-    <img src="public/assets/images/logo.jpeg" alt="Logo" width="80" height="80">
+    <img src="public/assets/images/logo.jpeg" alt="Logo" width="120" height="120">
   </a>
 
 <h3 align="center">BIST ETF TRACKING</h3>
@@ -52,7 +52,7 @@
 
 
 
-<p align="center"> <b>BIST ETF TRACKING</b> is a web application that tracks changes in stocks and funds listed on Borsa Istanbul, with data provided with a 15-minute delay, allowing users to visualize the portfolio allocations of their desired funds. Developed using with Next.js 14, Next.js Server Actions, Cloudflare Workers, Cloudflare D1, Shadcn UI, and Cheerio, this platform offers users the opportunity to monitor their preferred funds' portfolio distributions. This 15-minute delayed data enables investors to make informed financial decisions. Designed with user-friendly interfaces. 📈💼✨</p>
+<p align="center"> <b>BIST ETF TRACKING</b> is a web application that tracks changes in stocks and funds listed on Borsa Istanbul, with data provided with a 15-minute delay, allowing users to visualize the portfolio allocations of their desired funds. Developed using with Next.js 14, Next.js Server Actions, Cloudflare Workers, Cloudflare D1, Cloudflare Pages, Shadcn UI, and Cheerio, this platform offers users the opportunity to monitor their preferred funds' portfolio distributions. This 15-minute delayed data enables investors to make informed financial decisions. Designed with user-friendly interfaces. 📈💼✨</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,6 +63,7 @@
 * Next.js 14
 * Next.js Server Actions
 * Cloudflare Workers
+* Cloudflare Pages
 * Cloudflare D1
 * Shadcn UI
 * Cheerio
