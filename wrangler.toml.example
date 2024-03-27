@@ -1,0 +1,11 @@
+name = ""
+main = "src/index.ts"
+compatibility_date = ""
+node_compat = true
+
+[[ d1_databases ]]
+binding = "DB"
+database_name = ""
+database_id = ""
+preview_database_id = "DB"
+
