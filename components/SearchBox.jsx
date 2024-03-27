@@ -87,9 +87,9 @@ function StatusList({ setOpen, setSelectedStatus, data, selectedStatus }) {
   return (
     <>
       <Command>
-        <CommandInput placeholder="Filter status..." />
+        <CommandInput placeholder="Fon adı giriniz..." />
         <CommandList>
-          <CommandEmpty>No results found.</CommandEmpty>
+          <CommandEmpty>Sonuç bulunamadı</CommandEmpty>
           <CommandGroup>
             {data.map((item) => (
               //add params to the link
