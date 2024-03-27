@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 import { setupDevPlatform } from '@cloudflare/next-on-pages/next-dev'
 
-await setupDevPlatform()
+if (process.env.NODE_ENV === 'development') {
+    await setupDevPlatform()
+  }
+  
 const nextConfig = {
 
 };
