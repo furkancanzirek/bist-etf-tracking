@@ -1,7 +1,7 @@
 import StockCard from "@/components/StockCard";
 
 export const runtime = "edge";
-export const revalidate = 0;
+
 
 export default async function Home() {
   let results;
