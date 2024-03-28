@@ -1,10 +1,10 @@
 import StockCard from "@/components/StockCard";
 
 export const runtime = "edge";
+export const revalidate = 60;
 
 export default async function Home() {
   let results;
-
   try {
     const data = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/scrape`, {
       method: "POST",
@@ -12,11 +12,10 @@ export default async function Home() {
         url: "https://uzmanpara.milliyet.com.tr/canli-borsa/bist-TUM-hisseleri",
         type: "etfs",
       }),
-      next: { revalidate: 60 },
     });
     results = await data.json();
   } catch (error) {
-    console.log(error);
+    console.log(error, "error");
   }
 
   return (
